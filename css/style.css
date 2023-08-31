@@ -16,17 +16,22 @@ img{
 
 /* SECTION 1 */
 
-.section__text {
-    font-size: 25px;
-}
-
 .section {
     text-align: center;
     padding: 50px;
 }
 
+.section__text {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .section__title{
     padding: 50px 50px 80px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 60px;
+    color: #E53170;
+    
 }
 
 
@@ -37,6 +42,8 @@ img{
     float: left; 
     background-color: #0F0E17;
     color: white;
+    box-shadow: 20px 20px 50px grey;
+    
 }
 
 .col-up{
@@ -69,6 +76,7 @@ img{
 
 .profile-name{
     font-weight: 900;
+    font-size: 20px;
 }
 
 .profile-job{
