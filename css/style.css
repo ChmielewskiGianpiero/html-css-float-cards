@@ -7,7 +7,6 @@
 .container{
     margin: 0 auto;
     max-width: 1080px;
-    padding: 10px;   
 }
 
 img{
@@ -34,16 +33,14 @@ img{
 /* SECTION FLOAT CARDS */
 .col{
     margin-right: 30px;
-    width: calc((100% - 90px) / 3) ; 
+    width: calc((100% - 90px) / 3) ;
+    float: left; 
+    background-color: #0F0E17;
+    color: white;
 }
 
 .col-up{
-    float: left;
     margin-bottom: 80px;
-}
-
-.col-down{
-    float: left;
 }
 
 .clearfix::after{
@@ -56,6 +53,44 @@ img{
     width: 96px;
     float: left;
 }
+
+.contact{
+    padding-left: 120px;
+    padding-top: 12px;
+    line-height: 1.3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.profile-email{
+    text-decoration: none;
+    color: #68CBF2;
+    font-weight: 500;
+}
+
+.profile-name{
+    font-weight: 900;
+}
+
+.profile-job{
+    font-weight: 400;
+}
+
+
+/* FOOTER */
+
+.article-footer{
+    text-align: center;
+    background-color: #222222;
+    height: 200px;
+    position: absolute;
+    bottom: 20px;
+    padding: 65px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
 
 
 /* DEBUG */
