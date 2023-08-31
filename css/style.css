@@ -5,15 +5,70 @@
 }
 
 .container{
-    max-width: 800px;
     margin: 0 auto;
-    text-align: center;
-    padding: 50px;
+    max-width: 800px;
+    padding: 10px;   
+}
+
+img{
+    max-width: 100%;
 }
 
 
 /* SECTION 1 */
 
-.section__text{
+.section__text {
     font-size: 25px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px;
+}
+
+.section__title{
+    padding: 50px 50px 80px;
+}
+
+
+/* SECTION FLOAT CARDS */
+
+.col-up:last-child{
+    margin-right: 0;
+}
+
+.col-down:last-child{
+    margin-right: 0;
+}
+
+.col{
+    margin-right: 30px;
+    width: calc((100% - 90px) / 3) ;  
+}
+
+.col-up{
+    float: left;
+    margin-bottom: 80px;
+}
+
+.col-down{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* DEBUG */
+
+.debug .container {
+    border: 2px solid blue;
+}
+.debug .col{
+    border: 2px solid red;
+    padding: 20px;
+    min-height: 100px;
 }
